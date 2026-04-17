@@ -8,7 +8,7 @@
         isActive
 */
 
-import { Schema, model } from "mongoose";
+import mongoose, { Schema, model } from "mongoose";
 
 const productsSchema = new Schema({
     name:{

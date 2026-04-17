@@ -8,14 +8,14 @@
 import { Schema, model } from "mongoose";
 
 const categoriesSchema = new Schema({
-    name:{
+    name: {
         type: String
     },
-    description:{
+    description: {
         type: String
     },
     isActive: {
-        type: Boolean
+        type: Boolean, default: true
     }
 }, {
     timestamps: true,
